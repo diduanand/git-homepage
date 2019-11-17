@@ -1,0 +1,120 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  background-color: #222;
+  height: 50px;
+  color: white;
+  margin-bottom: 15px
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.LeftPanelStyle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  height: 150px;
+  width: 150px;
+  margin-right: 20px
+}
+
+.MainContentStyle {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+}
+.twoPanel {
+  display: flex;
+}
+
+.userImage {
+  height: 150px;
+  border-radius: 5px;
+}
+.userName {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.userLogin {
+  margin-top: 0px;
+  color: gray;
+}
+.userBio {
+  margin-top: 0px;
+  color: rgb(112, 112, 112);
+  font-size: xx-small;
+    font-weight: bold;
+}
+
+.otherDetails {
+  margin-top: 30px;
+  font-size: 12px;
+  color: slategray;
+}
+.iconStyle {
+  font-size: 24px
+}
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.textField {
+  width: 250px;
+  margin-right: 20px;
+}
+.typeDropdown {
+  width: 90px;
+  margin-right: 5px;
+}
+
+.languageDropdown {
+  width: 122px;
+  margin-right: 5px;
+}
+.buttonNew {
+  background-color: green;
+  color: white;
+}
+.repoName {
+  color: royalblue;
+  font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.repoDescription{
+  font-size: smaller;
+    font-weight: bold;
+    color: gray;
+    margin-top: 0px;
+}
+.repoProp{
+  display: flex;
+  font-size: 12px;
+  color: gray;
+}
+.repoLanguage{
+  margin-right: 20px
+}
+.repoLicense{
+  margin-right: 20px
+}
+.lineStyle{
+  border-top: 0.1px solid rgb(170, 169, 169)
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
